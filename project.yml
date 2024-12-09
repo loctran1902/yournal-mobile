@@ -1,0 +1,32 @@
+name: Yournal
+options:
+  bundleIdPrefix: com.rezo
+  deploymentTarget:
+    iOS: 15.0
+
+targets:
+  Yournal:
+    type: application
+    platform: iOS
+    sources:
+      - Yournal
+    settings:
+      base:
+        INFOPLIST_FILE: Yournal/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.rezo.yournal
+
+  YournalTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - YournalTests
+    dependencies:
+      - target: Yournal
+
+  YournalUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - YournalUITests
+    dependencies:
+      - target: Yournal
