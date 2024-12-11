@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EAB51A6B7B6115F938F15E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126B2E8F3B377A9EDEAC3B79 /* Assets.xcassets */; };
+		185FCF9E24DA3ECEF22E20DD /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA08928ED77CBC419F2293FC /* MockData.swift */; };
+		1F9F115C4B83978F04C2ACC2 /* YTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89E8F39AF5F8AC9C3E05EB2 /* YTheme.swift */; };
+		23BDC26EC0A5B58E975DC02A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449B71AC6CDC8D1E71C3340F /* MainView.swift */; };
+		2D26DC1DED7D9E73EE5ABE29 /* YournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AA3880B02014016F1EC729 /* YournalUITests.swift */; };
+		388424625F29CA6CA79E677D /* YTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA109BFCF668467B046118EE /* YTextField.swift */; };
+		407E89D9D6272620E6BD0DD1 /* YournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F718A986148B5DFF3EEF42B /* YournalUITestsLaunchTests.swift */; };
+		461A134AE3BCA2D6B37E5A22 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A97892C6C142D76D8B1F5 /* ContentView2.swift */; };
+		4AB6B1D5A5C4E933A533A47B /* MomentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7040C39088F1102DA9FFFF67 /* MomentListView.swift */; };
+		572C0E1DDF5372AB2CFE57E7 /* MomentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33AF1DBC988C5056045A8FD /* MomentDetailView.swift */; };
+		69FC8FB1AB108E6D4607F8E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99D6306FA10E36EFDD25418 /* ContentView.swift */; };
+		753BC6D3D92D5183E208D1F3 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47899A86D3B2ED567414DEA7 /* OnboardingView.swift */; };
+		83AEAF511AF212A92317A039 /* MomentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107FA7A6DDEA2B549755089A /* MomentListViewModel.swift */; };
+		86B46F6143D34B15D0B2F980 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D5104D575460AB2732B12 /* CameraManager.swift */; };
+		A0D8AA7864464A22BBD03DAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA8777E90E0FD5B8235D18D /* Preview Assets.xcassets */; };
+		BBF5001319364047C6A9F23B /* YButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ABEF34ABA7C5DEEA5ED19 /* YButtonStyle.swift */; };
+		CB574D639D218072B7F19C04 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B9A52F6BD0B89973908F3 /* Item.swift */; };
+		D87013B2993EA56152040E77 /* DSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6AA40EB50C8A15E19B420 /* DSView.swift */; };
+		DEB5B59EECE89DCD932DF77D /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A45E9C0641C4F92BBEC7E8F /* AuthViewModel.swift */; };
+		E92AE8628540165ABDAAC9E6 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5B74F184DBF8CD6800CDF1 /* AuthView.swift */; };
+		EA71587E36DF5C47E98AC0A5 /* YournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD7CE858E0E8ED4A36261A4 /* YournalApp.swift */; };
+		EB603845BD3568177F534C8D /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6B1DD66E7A7DE9E0E1E61F /* Moment.swift */; };
+		F128EF8BA81EA32966E10356 /* YournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669187B0FFC7ABCD45C26F97 /* YournalTests.swift */; };
+		F2909BCA867EC2B943514C38 /* YButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4C8606B99FA44D3AACDE66 /* YButton.swift */; };
+		FC0310362B5071A5FE48CFF5 /* NewMomentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59894BEEC2330F161C0157C /* NewMomentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78CDBA1B83CF87D8BB0D2E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADC49E15C975B0A96CAB15C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 405C39A67B3FE8FF3FD82F12;
+			remoteInfo = Yournal;
+		};
+		FE5E72AF68D9ADC6770805B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADC49E15C975B0A96CAB15C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 405C39A67B3FE8FF3FD82F12;
+			remoteInfo = Yournal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CBBAD0A29FDF4559FFDA141 /* YournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		107FA7A6DDEA2B549755089A /* MomentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentListViewModel.swift; sourceTree = "<group>"; };
+		126B2E8F3B377A9EDEAC3B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A45E9C0641C4F92BBEC7E8F /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		23E6AA40EB50C8A15E19B420 /* DSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSView.swift; sourceTree = "<group>"; };
+		283B9A52F6BD0B89973908F3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2F718A986148B5DFF3EEF42B /* YournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BD7CE858E0E8ED4A36261A4 /* YournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YournalApp.swift; sourceTree = "<group>"; };
+		3D6D5104D575460AB2732B12 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		449B71AC6CDC8D1E71C3340F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		47899A86D3B2ED567414DEA7 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		5D4C8606B99FA44D3AACDE66 /* YButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YButton.swift; sourceTree = "<group>"; };
+		5E1ABEF34ABA7C5DEEA5ED19 /* YButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YButtonStyle.swift; sourceTree = "<group>"; };
+		669187B0FFC7ABCD45C26F97 /* YournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YournalTests.swift; sourceTree = "<group>"; };
+		7040C39088F1102DA9FFFF67 /* MomentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentListView.swift; sourceTree = "<group>"; };
+		78AA3880B02014016F1EC729 /* YournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YournalUITests.swift; sourceTree = "<group>"; };
+		8CA8777E90E0FD5B8235D18D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF6B1DD66E7A7DE9E0E1E61F /* Moment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
+		B89E8F39AF5F8AC9C3E05EB2 /* YTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTheme.swift; sourceTree = "<group>"; };
+		BDB2F18A3380C655401D1EBE /* Yournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF3475C5282276931B25623 /* Yournal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yournal.entitlements; sourceTree = "<group>"; };
+		C33AF1DBC988C5056045A8FD /* MomentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentDetailView.swift; sourceTree = "<group>"; };
+		C99D6306FA10E36EFDD25418 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6B172E82DC86937AA0B0614 /* YournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA08928ED77CBC419F2293FC /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		DA109BFCF668467B046118EE /* YTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTextField.swift; sourceTree = "<group>"; };
+		DD5A97892C6C142D76D8B1F5 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		DE5B74F184DBF8CD6800CDF1 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		E59894BEEC2330F161C0157C /* NewMomentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMomentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		545343F6A8143E9777FA21B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D6D5104D575460AB2732B12 /* CameraManager.swift */,
+				AF6B1DD66E7A7DE9E0E1E61F /* Moment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7589149C4CE437E61C40DDC2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CA8777E90E0FD5B8235D18D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		77C406F534F4840A897C74A3 /* Yournal */ = {
+			isa = PBXGroup;
+			children = (
+				126B2E8F3B377A9EDEAC3B79 /* Assets.xcassets */,
+				C99D6306FA10E36EFDD25418 /* ContentView.swift */,
+				283B9A52F6BD0B89973908F3 /* Item.swift */,
+				DA08928ED77CBC419F2293FC /* MockData.swift */,
+				BFF3475C5282276931B25623 /* Yournal.entitlements */,
+				3BD7CE858E0E8ED4A36261A4 /* YournalApp.swift */,
+				BEB8FE3572290ECC937222E2 /* Components */,
+				545343F6A8143E9777FA21B4 /* Models */,
+				7589149C4CE437E61C40DDC2 /* Preview Content */,
+				E47872A1C126C14F29303765 /* Theme */,
+				EFE67E3F6CC9B1CD204298DA /* ViewModels */,
+				8F4B363460CF0F7CCFCCCA29 /* Views */,
+			);
+			path = Yournal;
+			sourceTree = "<group>";
+		};
+		8F4B363460CF0F7CCFCCCA29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B74F184DBF8CD6800CDF1 /* AuthView.swift */,
+				DD5A97892C6C142D76D8B1F5 /* ContentView2.swift */,
+				449B71AC6CDC8D1E71C3340F /* MainView.swift */,
+				C33AF1DBC988C5056045A8FD /* MomentDetailView.swift */,
+				7040C39088F1102DA9FFFF67 /* MomentListView.swift */,
+				E59894BEEC2330F161C0157C /* NewMomentView.swift */,
+				47899A86D3B2ED567414DEA7 /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A21B876C6C63DC39C675D4A /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				5D4C8606B99FA44D3AACDE66 /* YButton.swift */,
+				5E1ABEF34ABA7C5DEEA5ED19 /* YButtonStyle.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		AD42FACBEB40687415BB2566 /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				DA109BFCF668467B046118EE /* YTextField.swift */,
+			);
+			path = Inputs;
+			sourceTree = "<group>";
+		};
+		BEB8FE3572290ECC937222E2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				23E6AA40EB50C8A15E19B420 /* DSView.swift */,
+				9A21B876C6C63DC39C675D4A /* Buttons */,
+				AD42FACBEB40687415BB2566 /* Inputs */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C2C58D764CD3AC826A9CDE4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB2F18A3380C655401D1EBE /* Yournal.app */,
+				D6B172E82DC86937AA0B0614 /* YournalTests.xctest */,
+				0CBBAD0A29FDF4559FFDA141 /* YournalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1853CDB4D8EE1638BA1869D /* YournalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78AA3880B02014016F1EC729 /* YournalUITests.swift */,
+				2F718A986148B5DFF3EEF42B /* YournalUITestsLaunchTests.swift */,
+			);
+			path = YournalUITests;
+			sourceTree = "<group>";
+		};
+		E37C377A01D0081966A47F24 /* YournalTests */ = {
+			isa = PBXGroup;
+			children = (
+				669187B0FFC7ABCD45C26F97 /* YournalTests.swift */,
+			);
+			path = YournalTests;
+			sourceTree = "<group>";
+		};
+		E47872A1C126C14F29303765 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B89E8F39AF5F8AC9C3E05EB2 /* YTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		EFE67E3F6CC9B1CD204298DA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1A45E9C0641C4F92BBEC7E8F /* AuthViewModel.swift */,
+				107FA7A6DDEA2B549755089A /* MomentListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F7ABF0129710ED7330A1A031 = {
+			isa = PBXGroup;
+			children = (
+				77C406F534F4840A897C74A3 /* Yournal */,
+				E37C377A01D0081966A47F24 /* YournalTests */,
+				E1853CDB4D8EE1638BA1869D /* YournalUITests */,
+				C2C58D764CD3AC826A9CDE4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		405C39A67B3FE8FF3FD82F12 /* Yournal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421DFB5DCD89266ABDF62224 /* Build configuration list for PBXNativeTarget "Yournal" */;
+			buildPhases = (
+				DB3D8A87995EA7709E49A77A /* Sources */,
+				DA208594A8AC86A6B20E1845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yournal;
+			productName = Yournal;
+			productReference = BDB2F18A3380C655401D1EBE /* Yournal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CCF18E6E2A2FB5E2003FD8B /* YournalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F73EA4F739ABFBCDED25B7 /* Build configuration list for PBXNativeTarget "YournalUITests" */;
+			buildPhases = (
+				0CD8FF2B4DA7F72038E055B9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				695DBA83F603936648AE96BA /* PBXTargetDependency */,
+			);
+			name = YournalUITests;
+			productName = YournalUITests;
+			productReference = 0CBBAD0A29FDF4559FFDA141 /* YournalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A71A9008CDFB517D96144F2A /* YournalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E044F4FAEDE47DA7208D75F3 /* Build configuration list for PBXNativeTarget "YournalTests" */;
+			buildPhases = (
+				B5015D423CBDB65AD3F12415 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35CB629C00AB7756FF9472D /* PBXTargetDependency */,
+			);
+			name = YournalTests;
+			productName = YournalTests;
+			productReference = D6B172E82DC86937AA0B0614 /* YournalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADC49E15C975B0A96CAB15C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					4CCF18E6E2A2FB5E2003FD8B = {
+						TestTargetID = 405C39A67B3FE8FF3FD82F12;
+					};
+				};
+			};
+			buildConfigurationList = 3001507AA55AB0BB523D28FC /* Build configuration list for PBXProject "Yournal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F7ABF0129710ED7330A1A031;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				405C39A67B3FE8FF3FD82F12 /* Yournal */,
+				A71A9008CDFB517D96144F2A /* YournalTests */,
+				4CCF18E6E2A2FB5E2003FD8B /* YournalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA208594A8AC86A6B20E1845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAB51A6B7B6115F938F15E5 /* Assets.xcassets in Resources */,
+				A0D8AA7864464A22BBD03DAB /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CD8FF2B4DA7F72038E055B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D26DC1DED7D9E73EE5ABE29 /* YournalUITests.swift in Sources */,
+				407E89D9D6272620E6BD0DD1 /* YournalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5015D423CBDB65AD3F12415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F128EF8BA81EA32966E10356 /* YournalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3D8A87995EA7709E49A77A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92AE8628540165ABDAAC9E6 /* AuthView.swift in Sources */,
+				DEB5B59EECE89DCD932DF77D /* AuthViewModel.swift in Sources */,
+				86B46F6143D34B15D0B2F980 /* CameraManager.swift in Sources */,
+				69FC8FB1AB108E6D4607F8E9 /* ContentView.swift in Sources */,
+				461A134AE3BCA2D6B37E5A22 /* ContentView2.swift in Sources */,
+				D87013B2993EA56152040E77 /* DSView.swift in Sources */,
+				CB574D639D218072B7F19C04 /* Item.swift in Sources */,
+				23BDC26EC0A5B58E975DC02A /* MainView.swift in Sources */,
+				185FCF9E24DA3ECEF22E20DD /* MockData.swift in Sources */,
+				EB603845BD3568177F534C8D /* Moment.swift in Sources */,
+				572C0E1DDF5372AB2CFE57E7 /* MomentDetailView.swift in Sources */,
+				4AB6B1D5A5C4E933A533A47B /* MomentListView.swift in Sources */,
+				83AEAF511AF212A92317A039 /* MomentListViewModel.swift in Sources */,
+				FC0310362B5071A5FE48CFF5 /* NewMomentView.swift in Sources */,
+				753BC6D3D92D5183E208D1F3 /* OnboardingView.swift in Sources */,
+				F2909BCA867EC2B943514C38 /* YButton.swift in Sources */,
+				BBF5001319364047C6A9F23B /* YButtonStyle.swift in Sources */,
+				388424625F29CA6CA79E677D /* YTextField.swift in Sources */,
+				1F9F115C4B83978F04C2ACC2 /* YTheme.swift in Sources */,
+				EA71587E36DF5C47E98AC0A5 /* YournalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		695DBA83F603936648AE96BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 405C39A67B3FE8FF3FD82F12 /* Yournal */;
+			targetProxy = 78CDBA1B83CF87D8BB0D2E42 /* PBXContainerItemProxy */;
+		};
+		C35CB629C00AB7756FF9472D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 405C39A67B3FE8FF3FD82F12 /* Yournal */;
+			targetProxy = FE5E72AF68D9ADC6770805B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5BC7A533987B31ED0F6B6686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezo.YournalUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yournal;
+			};
+			name = Release;
+		};
+		5C864B8E920C0E7E3CC0BBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Yournal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezo.yournal;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EE5D21156880753D20B5974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7B280D4676DA9E68EEBE3AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezo.YournalTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yournal.app/Yournal";
+			};
+			name = Debug;
+		};
+		7DFC30D862AA2BE844E7FDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Yournal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezo.yournal;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83212B92503BD767CA03BDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CE235D0184E1C5A00790929C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezo.YournalTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yournal.app/Yournal";
+			};
+			name = Release;
+		};
+		D695901FCFA2309F849F6CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezo.YournalUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yournal;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3001507AA55AB0BB523D28FC /* Build configuration list for PBXProject "Yournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE5D21156880753D20B5974 /* Debug */,
+				83212B92503BD767CA03BDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		421DFB5DCD89266ABDF62224 /* Build configuration list for PBXNativeTarget "Yournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C864B8E920C0E7E3CC0BBA5 /* Debug */,
+				7DFC30D862AA2BE844E7FDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C2F73EA4F739ABFBCDED25B7 /* Build configuration list for PBXNativeTarget "YournalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D695901FCFA2309F849F6CA6 /* Debug */,
+				5BC7A533987B31ED0F6B6686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E044F4FAEDE47DA7208D75F3 /* Build configuration list for PBXNativeTarget "YournalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B280D4676DA9E68EEBE3AC2 /* Debug */,
+				CE235D0184E1C5A00790929C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADC49E15C975B0A96CAB15C /* Project object */;
+}
